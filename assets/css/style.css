@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: rgb(200, 200, 200);
+    width: 40vw;
+    margin: 0 auto;
+}
+
+section h1 {
+    margin-bottom: 3vh;
+}
+
+form div:nth-of-type(1) label,
+div:nth-of-type(2) label {
+    display: block;
+}
+
+article h2 {
+    display: block;
+}
+
+#container {
+    display: flex;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 20vw;
+    text-align: left;
+}

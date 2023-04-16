@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lvl3_13_string_seperation_machine</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section>
+        <h1>Zeichenkettentrennungsmaschine</h1>
+        <form action="" onsubmit="return false">
+            <div>
+                <label for="">Zu trennende Zeichenkette:</label>
+                <input type="text" name="" id="inputZeichenkette">
+            </div>
+            <div>
+                <label for="">Zeichenkette für die Trennungsposition:</label>
+                <input type="text" name="" id="inputWord">
+            </div>
+            <div>
+                <input type="radio" name="trennen" id="davor">
+                <label for="">davor trennen</label>
+            </div>
+            <div>
+                <input type="radio" name="trennen" id="danach">
+                <label for="">danach trennen</label>
+            </div>
+            <input type="submit" value="daten absenden" onclick="stringCut()">
+        </form>
+        <article>
+            <h2>Ausgabe</h2>
+            <div id="container">
+
+                <div class="textContainer">
+                    <h3>Vorderer Teil</h3>
+                    <p id="textVorne"></p>
+                </div>
+
+                <div class="textContainer">
+                    <h3>Hinterer Teil</h3>
+                    <p id="textHinten"></p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
